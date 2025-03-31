@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>TakeQuizDialog</class>
+ <widget class="QDialog" name="TakeQuizDialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>500</width>
+    <height>400</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Take Quiz</string>
+  </property>
+  <layout class="QVBoxLayout" name="verticalLayout">
+   <item>
+    <widget class="QLabel" name="label_question">
+     <property name="text">
+      <string>Question:</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QRadioButton" name="radioButton_option1">
+     <property name="text">
+      <string>Option 1</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QRadioButton" name="radioButton_option2">
+     <property name="text">
+      <string>Option 2</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QRadioButton" name="radioButton_option3">
+     <property name="text">
+      <string>Option 3</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QCheckBox" name="checkBox_option1">
+     <property name="text">
+      <string>Option 1</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QCheckBox" name="checkBox_option2">
+     <property name="text">
+      <string>Option 2</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QLineEdit" name="lineEdit_answer"/>
+   </item>
+   <item>
+    <widget class="QPushButton" name="btn_next_question">
+     <property name="text">
+      <string>Next Question</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QPushButton" name="btn_finish_quiz">
+     <property name="text">
+      <string>Finish Quiz</string>
+     </property>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

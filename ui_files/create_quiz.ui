@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>CreateQuizDialog</class>
+ <widget class="QDialog" name="CreateQuizDialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>500</width>
+    <height>400</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Create Quiz</string>
+  </property>
+  <layout class="QVBoxLayout" name="verticalLayout">
+   <item>
+    <layout class="QFormLayout" name="formLayout">
+     <item row="0" column="0">
+      <widget class="QLabel" name="label_title">
+       <property name="text">
+        <string>Quiz Title:</string>
+       </property>
+      </widget>
+     </item>
+     <item row="0" column="1">
+      <widget class="QLineEdit" name="lineEdit_title"/>
+     </item>
+     <item row="1" column="0">
+      <widget class="QLabel" name="label_question">
+       <property name="text">
+        <string>Question:</string>
+       </property>
+      </widget>
+     </item>
+     <item row="1" column="1">
+      <widget class="QLineEdit" name="lineEdit_question"/>
+     </item>
+     <item row="2" column="0">
+      <widget class="QLabel" name="label_type">
+       <property name="text">
+        <string>Question Type:</string>
+       </property>
+      </widget>
+     </item>
+     <item row="2" column="1">
+      <widget class="QComboBox" name="comboBox_type">
+       <item>
+        <property name="text">
+         <string>Single Choice</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Multiple Choice</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Text Answer</string>
+        </property>
+       </item>
+      </widget>
+     </item>
+     <item row="3" column="0">
+      <widget class="QLabel" name="label_options">
+       <property name="text">
+        <string>Options (comma-separated):</string>
+       </property>
+      </widget>
+     </item>
+     <item row="3" column="1">
+      <widget class="QTextEdit" name="textEdit_options"/>
+     </item>
+     <item row="4" column="0">
+      <widget class="QLabel" name="label_correct_answer">
+       <property name="text">
+        <string>Correct Answer:</string>
+       </property>
+      </widget>
+     </item>
+     <item row="4" column="1">
+      <widget class="QLineEdit" name="lineEdit_correct_answer"/>
+     </item>
+    </layout>
+   </item>
+   <item>
+    <widget class="QPushButton" name="btn_add_question">
+     <property name="text">
+      <string>Add Question</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QPushButton" name="btn_save_quiz">
+     <property name="text">
+      <string>Save Quiz</string>
+     </property>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
